@@ -32,8 +32,8 @@ function App() {
           value={html}
           onChange={setHtml}
         />
-        <Editor language="xml" displayName="CSS" value={css} onChange={setCss} />
-        <Editor language="xml" displayName="JS" value={js} onChange={setJs} />
+        <Editor language="css" displayName="CSS" value={css} onChange={setCss} />
+        <Editor language="javascript" displayName="JS" value={js} onChange={setJs} />
       </div>
       <div className="pane">
         {/* allow scripts  -> it help with security (so that it doesn't access document cookies & stuff) */}
